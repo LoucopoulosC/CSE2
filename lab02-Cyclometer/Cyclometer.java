@@ -3,7 +3,7 @@
 //Lab02
 //Cyclometer Java Program
 //
-//  First complie the program
+//  First compile the program
 //      Javac Cyclometer.java
 //  Run the program
 //      Java Cyclometer//
