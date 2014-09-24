@@ -1,6 +1,6 @@
 //
 //Constantine Loucopoulos
-//Lab 03
+//Lab 04
 //BigMac Java Program
 //
 //  First compile the program
@@ -30,7 +30,7 @@ public class BigMacAgain{
 
         int nBigMacs=myScanner.nextInt();
         
-         //  Constants
+        //  Constants
         double costBigMac$=2.22;
         double costFries$=2.15;
         double totalCostBigMac$, totalCostFries$;
@@ -39,13 +39,13 @@ public class BigMacAgain{
         
         
         if (nBigMacs>0) {
-            System.out.print("You ordered "+nBigMacs+" Big Macs for a cost of: "+nBigMacs+" x $2.22 = "+totalCostBigMac$);}
-        
-        
+            System.out.print("You ordered "+nBigMacs+" Big Macs for a cost of: "+nBigMacs+" x $2.22 = "+totalCostBigMac$);
+        }
             
         else {System.out.print("You did not enter an int.");
         return; //  Terminates program
         }
+            
             
     }   //  End of main method
 }   //  End of classs
