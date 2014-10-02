@@ -28,19 +28,12 @@ public class RandomGames{
         
         String gameSelection=myScanner.next();
         
+        int randomNumber;
+        
         switch (gameSelection) {
-            case ("R"): 
-                int randomNumber=(int)((Math.random())*37);
-                
-                if (randomNumber==37)
-                    System.out.println("Roulette: 00");
-                    
-                    else
-                    System.out.println("Roulette: "+randomNumber);
-            break;
-            
-            
             case ("r"):
+            case ("R"): 
+                randomNumber=(int)((Math.random())*37);
                 
                 if (randomNumber==37)
                     System.out.println("Roulette: 00");
@@ -48,7 +41,6 @@ public class RandomGames{
                     else
                     System.out.println("Roulette: "+randomNumber);
             break;
-            
             
             case ("C"):
             
