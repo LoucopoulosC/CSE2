@@ -26,7 +26,7 @@ public class BigMacAgain{
         myScanner=new Scanner(System.in);
 
         //  Accept input by prompting user for number of Big Macs
-        System.out.print("Enter the number of Big Macs: ");
+        System.out.println("Enter the number of Big Macs: ");
 
         int nBigMacs=myScanner.nextInt();
         
@@ -39,10 +39,10 @@ public class BigMacAgain{
         
         
         if (nBigMacs>0) {
-            System.out.print("You ordered "+nBigMacs+" Big Macs for a cost of: "+nBigMacs+" x $2.22 = "+totalCostBigMac$);
+            System.out.println("You ordered "+nBigMacs+" Big Macs for a cost of: "+nBigMacs+" x $2.22 = $"+totalCostBigMac$);
         }
             
-        else {System.out.print("You did not enter an int.");
+        else {System.out.println("You did not enter an int.");
         return; //  Terminates program
         }
             
