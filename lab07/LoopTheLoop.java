@@ -26,19 +26,14 @@ public class LoopTheLoop{
         //  Variables
         int nStars = 10;
         String a = "*";
-        int n = 1;
+        int n = 0;
         
         if (nStars>=1 && nStars <=15)   {
-            while (n<=((nStars-nStars)+1))  {
-                n++;
-                System.out.print(a);
-
-                while (n<=nStars)    {
+                while (n<nStars)    {
                     n++;
                     System.out.print(a);
             }
-        
-            }
+            System.out.println();
         }
         else
             System.out.println("You did not enter an int between 1 and 15");

@@ -32,7 +32,7 @@ public class BurgerKing{
         //  Accept user input
         String order=myScanner.next();
         
-        if (order.length() == 1)  {
+        if (order.length == 1)  {
         
             switch (order)  {
                 case ("b"):
