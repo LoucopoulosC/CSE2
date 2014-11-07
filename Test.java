@@ -12,15 +12,37 @@ public class Test{
     
 //  Add main method
     public static void main(String[] args)  {
-    
-        int i = 0, j = 15, k = 7;
-        double x = -40.0, y = 0.0, z= 3.14;
-        String s = "fall", t = "break";
-        boolean p = false, q = true;
-        char c = 'D';
-
         
-        System.out.println(j);
+        //  Declare variables
+        final int NUM_STUDENTS = 5000;
+        int[] studentIds;
+        int i = 0;
+        
+        //  Allocate memory space
+        studentIds = new int[NUM_STUDENTS];
+        
+        /*//  Initialize values
+        studentIds[0] = 1;
+        studentIds[1] = 2;
+        studentIds[2] = 3;
+        studentIds[3] = 4;
+        studentIds[4] = 5;
+        studentIds[5] = 6;
+        studentIds[6] = 7;
+        studentIds[7] = 8;
+        studentIds[8] = 9;
+        studentIds[9] = 10;
+        studentIds[10] = 11;*/
+        
+        
+        //  Initialization shortcut
+        for (i=0; i < NUM_STUDENTS; i++)
+            studentIds[i] = i+1;
+            
+        //  .length shows length of array ("studentIds" in this case)
+        int size = studentIds.length;
+        
+        System.out.println(size);
 
         
         

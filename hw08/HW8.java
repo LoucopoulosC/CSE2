@@ -9,7 +9,7 @@
 import java.util.Scanner;
 
 //  Define a class
-public class HW8    {
+public class HW8{
     
     
     //  First definition of getInput Method
@@ -97,4 +97,4 @@ public class HW8    {
 /* Did not have time to complete this code, 
 as I was studying for other exams.
  I will work on it after submission, 
- but for now, here is what  I have to submit for a grade.*/
+ but for now, here is what  I have to submit for a grade./*
