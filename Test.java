@@ -21,7 +21,7 @@ public class Test{
         //  Allocate memory space
         studentIds = new int[NUM_STUDENTS];
         
-        /*//  Initialize values
+        //  Initialize values
         studentIds[0] = 1;
         studentIds[1] = 2;
         studentIds[2] = 3;
@@ -32,17 +32,20 @@ public class Test{
         studentIds[7] = 8;
         studentIds[8] = 9;
         studentIds[9] = 10;
-        studentIds[10] = 11;*/
+        studentIds[10] = 11;
+        studentIds[11] = 0;
         
         
-        //  Initialization shortcut
+        
+        /*//  Initialization shortcut
         for (i=0; i < NUM_STUDENTS; i++)
-            studentIds[i] = i+1;
+            studentIds[i] = i+1;*/
             
         //  .length shows length of array ("studentIds" in this case)
         int size = studentIds.length;
         
         System.out.println(size);
+        System.out.println(studentIds[15]);
 
         
         

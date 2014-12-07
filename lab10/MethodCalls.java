@@ -1,6 +1,6 @@
 //
 //Constantine Loucopoulos
-//Lab 09
+//Lab 10
 //Method Calls Java Program
 //
 //  First compile the program

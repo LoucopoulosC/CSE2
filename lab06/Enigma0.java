@@ -34,4 +34,4 @@ public class Enigma0{
 }
 
 /* Error report:
- *   int n should be initialized outside of the if and switch statements
+ *   int n should be initialized outside of the if and switch statements*/
