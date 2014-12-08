@@ -157,3 +157,11 @@ public class PokerHands{
   
 
 }   //  End of class
+
+/*  Unfortunately I have not had time to complete the programs
+    assigned for homework, as I have had assignments and presentations
+    due this entire week, and have been studying for exams as well.
+    I will rework the homeworks when I get a chance,
+    to make sure I understand the concepts and to prepare for the exam.
+    For the moment, however, this all I have completed to be submitted.
+*/
